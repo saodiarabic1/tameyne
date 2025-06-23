@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تأمين السيارات - قارن واحصل على أفضل سعر</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Tahoma', sans-serif;
+      background-color: #27b6e6;
+      color: white;
+      text-align: center;
+      direction: rtl;
+    }
+
+    .container {
+      padding: 30px 15px;
+    }
+
+    .header-img img {
+      width: 220px;
+      margin: 20px auto;
+      display: block;
+    }
+
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      color: #f1f1f1;
+      margin-bottom: 30px;
+    }
+
+    .card {
+      background-color: #d9f3ea;
+      color: #000;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 10px 20px;
+      font-size: 16px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      position: relative;
+      text-align: right;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    .card::after {
+      content: "⋮";
+      position: absolute;
+      left: 15px;
+      top: 15px;
+      color: #888;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header-img">
+      <img src="https://cdn-icons-png.flaticon.com/512/2920/2920244.png" alt="تأمين السيارات">
+    </div>
+
+    <div class="title">قارن وأمّن واستلم وثيقتك</div>
+    <div class="subtitle">قارن بين أكثر من <strong>20</strong> شركة تأمين مركبات</div>
+
+    <div class="card" onclick="window.location.href='https://treetofens.com/'">عروض مميزة لتأمين السيارات</div>
+    <div class="card" onclick="window.location.href='https://treetofens.com/'">وفّر <strong>50%</strong> على تأمين سيارتك</div>
+    <div class="card" onclick="window.location.href='https://treetofens.com/'">أمّن سيارتك بدقيقتين مع تـري للتأمين الرقمي</div>
+  </div>
+
+</body>
+</html>
